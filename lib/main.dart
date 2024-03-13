@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:repick_mobile/constants/app_constants.dart';
 
 import 'navigation/app_router_provider.dart';
 
@@ -23,7 +24,7 @@ class _RepickMobileAppState extends ConsumerState<RepickMobileApp> {
         routeInformationParser: router.routeInformationParser,
         routeInformationProvider: router.routeInformationProvider,
         routerDelegate: router.routerDelegate,
-        title: 'Repick',
+        title: AppConstants.appName,
         theme: ThemeData(
           useMaterial3: true,
         ),
