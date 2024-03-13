@@ -64,8 +64,8 @@ repick_mobile/
   ├── ios/      // iOS 프로젝트
   ├── lib/
   │   ├── assets/      // 앱 리소스
-  │   │   ├── icon/                 // 아이콘 리소스
-  │   │   └── image/                // 이미지 리소스
+  │   │   ├── icons/                // 아이콘 리소스
+  │   │   └── images/               // 이미지 리소스
   │   ├── constants/   // 상수 관련 파일
   │   │   ├── app_constants.dart    // 앱 전역 상수
   │   │   ├── asset_constants.dart  // 앱 리소스 상수
@@ -78,7 +78,7 @@ repick_mobile/
   │   ├── viewmodels/  // 전역적으로 관리되는 ViewModel 
   │   ├── views/       // UI
   │   │   ├── screen                // 화면
-  │   │   └── widget                // 화면에서 공통적으로 사용되는 위젯
+  │   │   └── widget                // 여러 화면에서 공통적으로 사용되는 위젯
   │   └── main.dart    // 앱 진입점
   ├── test/     // 테스트 코드
   └── pubspec.yaml
